@@ -10,7 +10,6 @@ import NoteSelectors from "./NoteSelectors.vue";
 import NoteEditor from "./NoteEditor.vue";
 
 export default {
-  name: "app",
   components: {
     NoteSelectors,
     NoteEditor,
