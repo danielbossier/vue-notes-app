@@ -1,6 +1,7 @@
 <template>
   <div class="note-selectors">
     <NoteSelector v-for="note in notes" v-bind:note="note" :key="note.id" />
+    <!-- v-bind:selectedNoteId="selectedNoteId" -->
   </div>
 </template>
 
